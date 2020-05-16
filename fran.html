@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Пекарня ПоЖар</title>	
+        <link rel="stylesheet" href="styles.css">
+    </head>
+</html>
+<body>
+    <div class="menu">
+        <a class="back"><img src="images/menu.png"></a>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="links1">
+            <a href="https://yandex.ru/maps/-/CWwuJ-MF" rel="nofollow" target="_blank">адрес</a>
+        </div>
+        <div class="links2">
+            <a href="faq.html">о нас</ahref></a>
+        </div>
+        <div class="links3">
+            <a href="fran.html">открыть пекарню</ahref></a>
+        </div>
+        <div class="form">
+            <form action="insert.php" method="POST">
+              <table>
+                  <h1>Забронировать покупку</h1>
+           <tr>
+            <td>Ваше имя:	</td>
+            <td><input type="text" name="name" required></td>
+           </tr>
+           <tr>
+            <td>Фамилия:	</td>
+            <td><input type="text" name="surname" required></td>
+           </tr>
+           <tr>
+            <td>Город:</td>
+            <td><input type="text" name="city" required></td></td>
+           </tr>
+           <tr>
+            <td>Мобильный номер:</td>
+            <td><input type="text" name="number" required></td>
+           </tr> 
+           <tr>
+            <td>E-mail:</td>
+            <td>
+             <input type="text" name="email" required>
+            </td>
+           </tr>
+           <tr><td><button type="submit" value="submit" onclick="sendallert()">Отправить</td></tr>
+          </table>
+          
+            </form>
+        
+                </div>
+    </div>
+    
+</body>
